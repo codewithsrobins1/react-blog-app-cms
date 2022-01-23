@@ -1,29 +1,52 @@
-# Next.js + Tailwind CSS Example
+# Minctz Blog
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+A blog website that is built using GraphCMS, GraphQL, NextJs, and Tailwind CSS. 
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+## Link to Live Site
 
-## Preview
+https://minctz-blog.vercel.app/
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## Objectives
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+* Utilize a CMS with React
+* Build a blog website to document anything tech, sports, music, or food related
+* Practice more NextJS and Tailwind CSS
 
-## Deploy your own
+## Features to Possibly Implement in Future
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+* Pagination
+* Dark and Light Theme switch
+* Users can share their outfits with a generated link
+* More modern design 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Built With
 
-## How to use
+* NextJS - React
+* GraphCMS
+* Tailwind CSS
+* GraphQL
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Getting Started
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+To get a local copy up and running follow these steps using your terminal.
+
+### Installation
+
+1. Clone the repo
+```sh
+git clone https://github.com/codewithsrobins1/react-blog-app-cms/
 ```
+2. Change to client directory
+```sh
+cd client
+```
+3. Install NPM packages
+```sh
+npm install i
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+```
+4. Start Client
+```sh
+npm start
+
+```
